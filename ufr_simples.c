@@ -25,7 +25,7 @@ int parse_frase(const char* frase) {
 
 int main() {
     // Encontra %d e retorna 1
-    int res1 = parse_frase("%d      %d   %f\n");      
+    int res1 = parse_frase("%d      %s   %f\n");      
     printf("função retornou %d\n", res1);
 
     // Encontra %s e retorna 3
@@ -33,7 +33,7 @@ int main() {
     printf("função retornou %d\n", res2);
 
     // Encontra %f e retorna 2
-    int res3 = parse_frase("%d      %d   %f\n");
+    int res3 = parse_frase("%d      %s   %f\n");
     printf("função retornou %d\n", res3);
 
     // Fim
