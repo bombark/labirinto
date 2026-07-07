@@ -1,4 +1,4 @@
-# Labirinto em C
+# Printf do UFR
 
 Objetivo é implementar a função parse_frase e criar mais testes para evitar
 que tenha bugs na função de parse. Realizar a interpretação de um texto
@@ -95,4 +95,4 @@ make
 
 # Execução
 
-./1exemplo
+./teste_ufr
