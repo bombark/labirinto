@@ -17,6 +17,7 @@ int parse_frase(const char* frase) {
     // Quando achar um %s retorna 3
     // Quando achar um \n retorna 4
     // Quando achar um \0 retorna 5
+    // Quando achar um "nome=" retorna 6
 }
 
 // ============================================================================
